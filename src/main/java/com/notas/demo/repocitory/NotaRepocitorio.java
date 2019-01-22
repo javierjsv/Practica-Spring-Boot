@@ -21,4 +21,5 @@ public interface NotaRepocitorio extends JpaRepository<Nota, Serializable> {
 
 	public abstract Nota findByNombreAndTitulo(String nombre, String titulo);
 
+	
 }

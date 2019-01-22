@@ -69,6 +69,7 @@ public class NotaService  {
 		}
 	}
 
+	
 	@Transactional
 	public List<MNota> obtener() {
 		return convertidor.convertirLista(respocitorio.findAll());
